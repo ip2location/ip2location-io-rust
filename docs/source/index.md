@@ -1,4 +1,5 @@
-# IP2Location.io Rust SDK
+IP2Location.io Rust SDK
+========================
 
 This Rust module enables user to query for an enriched data set, such as country, region, city, latitude & longitude, ZIP code, time zone, ASN, ISP, domain, net speed, IDD code, area code, weather station data, MNC, MCC, mobile brand, elevation, usage type, address type, advertisement category, fraud score and proxy data with an IP address. It supports both IPv4 and IPv6 address lookup.
 
@@ -6,11 +7,11 @@ In addition, this module provides WHOIS lookup api that helps users to obtain do
 
 There is also a Hosted Domain API that allowing users to get the list of hosted domain names by IP address in real time. The REST API supports both IPv4 and IPv6 address lookup.
 
-This module requires API key to function. You may sign up for a free API key at https://www.ip2location.io/pricing.
+## Table of contents
+ ```{eval-rst}
+ .. toctree::
 
-## Developer Documentation
-
-To learn more about installation, usage, and code examples, please visit the developer documentation at [https://ip2location-io-rust.readthedocs.io/en/latest/index.html](https://ip2location-io-rust.readthedocs.io/en/latest/index.html).
-
-## License
-See the LICENSE file.
+   self
+   quickstart
+   code
+ ```
