@@ -9,7 +9,7 @@ homepage = "https://github.com/MailboxValidator/mailboxvalidator-rust"
 repository = "https://github.com/MailboxValidator/mailboxvalidator-rust/"
 license = "MIT"
 license-file = "LICENSE.txt"
-keywords = ["ip", "location", "geolocation", "whois", "hosted domain"]
+keywords = ["ip", "location", "geolocation", "whois", "hosteddomain"]
 categories = ["network-programming"]
 
 [dependencies]
