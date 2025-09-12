@@ -16,6 +16,7 @@ pub struct IpGeolocationResult {
     pub asn: Option<String>,
     #[serde(rename = "as")]
     pub as_name: Option<String>,
+    pub as_info: Asinfo,
     pub isp: Option<String>,
     pub domain: Option<String>,
     pub net_speed: Option<String>,
@@ -42,6 +43,15 @@ pub struct IpGeolocationResult {
     pub proxy: Proxy,
     // #[serde(flatten)]
     // pub extra: Value, // Any additional fields depending on plan
+}
+
+#[derive(Debug, Deserialize)]
+pub struct Asinfo {
+    pub as_name: Option<String>,
+    pub as_number: Option<String>,
+    pub as_domain: Option<String>,
+    pub as_cidr: Option<String>,
+    pub as_usage_type: Option<String>,
 }
 
 #[derive(Debug, Deserialize)]
