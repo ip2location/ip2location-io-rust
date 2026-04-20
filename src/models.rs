@@ -58,7 +58,7 @@ pub struct Asinfo {
 pub struct Continent {
     pub name: Option<String>,
     pub code: Option<String>,
-    pub hemisphere: Vec<String>,
+    pub hemisphere: Option<Vec<String>>,
     pub translation: Translation,
 }
 
@@ -101,7 +101,7 @@ pub struct Language {
 pub struct Region {
     pub name: Option<String>,
     pub code: Option<String>,
-    pub translation: Translation,
+    pub translation: Option<Translation>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -140,6 +140,7 @@ pub struct Proxy {
     pub is_public_proxy: Option<bool>,
     pub is_web_proxy: Option<bool>,
     pub is_web_crawler: Option<bool>,
+    pub is_ai_crawler: Option<bool>,
     pub is_residential_proxy: Option<bool>,
     pub is_spammer: Option<bool>,
     pub is_scanner: Option<bool>,
