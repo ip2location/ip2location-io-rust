@@ -2,6 +2,7 @@
 name = "ip2locationio"
 version = "1.1.1"
 edition = "2024"
+rust-version = "1.86.0"
 authors = ["IP2Location.io <support@ip2location.io>"]
 description = "Rust client for IP2Location.io API"
 readme = "readme.md"
