@@ -58,8 +58,6 @@ For authentication and rate-limit details, see the [IP Geolocation API documenta
 - An [IP2Location.io API key](https://www.ip2location.io/pricing) for SDK requests.
 - Internet access to the API endpoints.
 
-> The repository's manifest currently identifies crate version `1.1.1`. The Read the Docs quickstart still shows `ip2locationio = "1.0.0"`; the steps below use the newer repository version. Ensure the version you select is available on [crates.io](https://crates.io/crates/ip2locationio).
-
 ## Installation
 
 ### 1. Create a Rust project
